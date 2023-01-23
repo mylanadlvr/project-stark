@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+
+}
+
+body {
+    background: linear-gradient(243.37deg, #940000 0.28%, #01002F 74.55%);
+    color: white;
+    height: 100vh;  
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 48px;
+
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+}
+
+#header-logo {
+
+    border: 1px solid red;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+  
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    
+    
+}
