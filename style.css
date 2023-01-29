@@ -4,21 +4,24 @@
     box-sizing: border-box;
 }
 
+
 body {
+
     background: linear-gradient(243.37deg, #940000 0.28%, #01002F 74.55%);
     color: white;
     height: 100vh; 
+
+    display: flex;
+    flex-direction: column;
     
     align-items: center;
-    justify-content: center;
+ 
    
 }
 
 
 header {
-    box-sizing: 40%;
-    
-   
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,19 +30,34 @@ header {
     padding: 25px;
     opacity: 0.80;
 
-    position: fixed;
+   
     width: 100%;
-    background-color: transparent;
+   
+}
+
+
+.formDad {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 100%;
+    
+    
+
 }
 
 form {
    
-    box-sizing: 50%;
-
-    
+   
     display: flex;
     align-items: center;
     justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    height: fit-content;
+
     
 
 }
@@ -51,7 +69,6 @@ form {
 h1 {
 
 
-    margin-top: 50%;
    
     display: flex;
     text-align: center;
