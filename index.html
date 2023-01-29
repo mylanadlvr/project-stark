@@ -14,25 +14,43 @@
     <link rel="icon" href="./favicon.svg">
 
 </head>
-<body>
+
 
 
 <header>
 <div id="header-logo">
-<img src="./logoStarkIndustries.svg" alt="Logomarca Stark Industries">
+<img src="./logoStarkIndustries.svg" alt="Logomarca Stark Industries" width="100px">
 </div>    
 
 </header>
 
-<form action="action_page.php" method="post">
-    <h1 id="login-title">The Stark Project</h1>
+<body>
+<form action="action_page.php" method="post" id="container">
         <div class="container">
-               <label for="uname"><b>Username</b></label><input type="text" placeholder="Enter Username" name="uname" required> <Br>
-               <label for="psw"><b>Password</b></label> 
-              <input type="password" placeholder="Enter Password" name="psw" required>
-              <button type="submit">Login</button> <br>
-              <label for="lguage"><b>Language</b></label>
-              <input type="checkbox" placeholder="English" name="l-en" required>
+               <h1>The Stark Project</h1>
+               <div class="inputs">
+                    <div class="username">
+                        <label for="uname">Username</label>
+                        <input class= "username-input" type="text" placeholder="  Enter Tony_Stark" name="uname" required>
+                    </div>
+
+                    <div class="password">
+                        <label for="psw">Password</label>
+                        <input class ="password-input" type="password" placeholder="  Enter imawesome" name="psw" required>
+                    </div>
+
+                    <div class="language">
+                        <label for="lng">Choose Language</label>
+                        <input class="eng" type="checkbox">English</button>
+                        <input class="ptbr" type="checkbox">Português</button>
+                    </div>
+
+                    <div class="login-button">
+                        <button class="loginb" type="submit">Enter Workspace</button>
+                    </div>
+                
+                
+             </div>
                 
             </div>
           
